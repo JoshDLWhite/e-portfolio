@@ -47,7 +47,7 @@ a:hover {
 }
 
 .link__hover-effect--white:after {
-  background-color: white;
+  background-color: rgb(2, 197, 12);
 }
 
 .link__hover-effect--black:after {
@@ -78,8 +78,8 @@ li {
   padding: 20px 12px;
 }
 
-.text--purple {
-  color: #6030b1;
+.text--bright {
+  color: #FFC72C;
 }
 
 section:nth-child(even) {
@@ -148,6 +148,8 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #31e012;
+  background-image: linear-gradient(135deg, #BAB86C, #556B2F)
 }
 
 .about-me__info {
@@ -166,11 +168,11 @@ nav {
 }
 
 .about-me__picture--mask {
-  width: 200px; 
+  width: 150px; 
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 16px rgb(68, 243, 65);
   margin-bottom: 28px;
   align-items: center;
 }
@@ -381,7 +383,7 @@ nav {
 .project__description--para,
 .project__description--link {
   text-align: left;
-  color: #ffff
+  color: #ffffff
 }
 
 /*FOOTER*/
@@ -391,6 +393,18 @@ footer {
 }
 
 .footer__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.footer__logo--img {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  box-shadow: 0px 10px 25px rgb(68, 243, 60);
+
   
 }
 
@@ -400,11 +414,6 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 8%;
-}
-
-.footer__logo--img {
-  width: 70px;
-  height: 70px;
 }
 
 .footer__social--link,
