@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 h1 {
+  color: #BAB86C;
   font-size: 36px;
 }
 
@@ -68,7 +69,7 @@ li {
 }
 
 .flex-1 {
-  flex flex: 1;
+  flex: 1;
 }
 
 .row {
@@ -118,7 +119,7 @@ nav {
   margin: 0 12px;
   text-decoration: none;
   font-size: 16;
-  color: #242424;
+  color: #BAB86C;
   font-weight: 700;
 }
 
@@ -148,8 +149,8 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #31e012;
-  background-image: linear-gradient(135deg, #BAB86C, #556B2F)
+  background-color: hsl(66, 67%, 50%);
+  background-image: linear-gradient(135deg, #506068, #121818)
 }
 
 .about-me__info {
@@ -346,11 +347,11 @@ nav {
 
 .project:hover .project__description {
   opacity: 1;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .project__list {
-  padding-top: 40pd;
+  padding-top: 40px;
 }
 
 .project__description {
